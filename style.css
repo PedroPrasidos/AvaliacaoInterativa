@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C0E13;
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    width: 350px;
+    max-height: 400px;
+    height: 60%;
+    background-color: #2E323B;
+    border-radius: 20px;
+}
+
+.conteudo_card{
+    padding: 30px;
+}
+
+.fundo_estrela{
+    width: 50px;
+    height: 50px;
+    background-color: #454a588e;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.titulo{
+    color: #ebf5ee;
+    margin-bottom: 15px;
+}
+
+.descricao{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #98a3ad;
+}
+
+.avaliacao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.avaliacao span{
+    transition: .3s ease-out;
+    width: 50px;
+    height: 50px;
+    background-color: #454a588e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #98a3ad;
+    cursor: pointer;
+}
+
+.avaliacao span:hover{
+    transition: .3s ease-in;
+    background-color: #6e70798e;
+    color: white;
+}
+
+.enviar_avaliacao{
+    transition: .3s ease-out;
+    height: 40px;
+    width: 100%;
+    background-color: #fd8f00;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.enviar_avaliacao:hover{
+    transition: .3s ease-in;
+    background-color: #ffffff;
+    color: #fd8f00;
+}
+
+
+.avaliacaoEscolhida{
+    text-align: center;
+    color: #e18000;
+    border-radius: 15px;
+    padding: 5px;
+    width: 65%;
+    background-color: #5454548e;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.finishPage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descricao{
+    text-align: center;
+}
+
+.home{
+    
+}
+
+.finishPage{
+    display: none;
+}
+
+
+.avaliacao span.selected {
+    background-color: #fd8f00;
+    color: white;
+}
